@@ -53,7 +53,7 @@ public class Homework13 {
     private static final Gson GSON = new Gson();
 
     public static void main(String[] args) throws IOException, InterruptedException, URISyntaxException {
-        //Task #1
+        //-----------------Task #1
 
         // Create new user
         User myUser = createDefaultUser();
@@ -83,13 +83,14 @@ public class Homework13 {
         printResponse(
                 getUserByUsername(JSON_HOLDER,"Maxime_Nienow"));
 
-        printResponse(
-                getAllUsersPosts(JSON_HOLDER, 3));
+        //-----------------Task #2
 
-        //Task #1
+        // Get all comments from the last user's post, print them to console and write to a file
         writeLastCommentsToAFile(JSON_HOLDER, 3);
 
-        //Task #3
+        //-----------------Task #3
+
+        // Get all open user's tasks and print them to console
         printAllOpenTasks(JSON_HOLDER, 3);
 
     }
