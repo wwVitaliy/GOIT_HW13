@@ -3,9 +3,11 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-class Post {
-    private int userId;
+class Comment {
+    private int postId;
     private int id;
-    private String title;
+    private String name;
+    private String email;
     private String body;
 }
+

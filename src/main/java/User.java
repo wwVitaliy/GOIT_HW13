@@ -14,27 +14,4 @@ public class User {
     private Company company;
 }
 
-@Data
-@AllArgsConstructor
-class Address {
-    private String street;
-    private String suite;
-    private String city;
-    private String zipcode;
-    private Geo geo;
-}
 
-@Data
-@AllArgsConstructor
-class Geo {
-    private String lat;
-    private String lng;
-}
-
-@Data
-@AllArgsConstructor
-class Company {
-    private String name;
-    private String catchPhrase;
-    private String bs;
-}

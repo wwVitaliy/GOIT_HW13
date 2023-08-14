@@ -1,0 +1,3 @@
+Corrections #1
+
+1. Виніс в окремі файли класи Address, Comment, Company, Geo
